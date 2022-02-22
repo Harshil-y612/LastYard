@@ -1,0 +1,45 @@
+/* 
+
+.doodler{
+    width: 50px;
+    height: 80px;
+    background-color: gold;
+    position: absolute;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+ */
+
+.point{
+    text-align: center;
+    font-weight: bolder;
+    font-family: fantasy;
+}
+
+.btn:disabled{
+    display: none;
+}
+.btn:enabled{
+    display: block;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: grey;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: large;
+    color: wheat;
+}
+.doodler{
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.plateform{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
